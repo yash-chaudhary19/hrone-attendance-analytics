@@ -1,0 +1,24 @@
+# Environment & secrets
+.env
+.env*
+!.env.example
+frontend/.env
+frontend/.env*
+!frontend/.env.example
+
+# Python virtual environment & caches
+.venv/
+__pycache__/
+*.pyc
+
+# Node & frontend build outputs
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+
+# OS and archives
+.DS_Store
+*/.DS_Store
+*.zip
+test_mongo_conn.py
